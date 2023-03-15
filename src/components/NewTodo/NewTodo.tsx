@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { TodoContext } from "./TodoContext";
+import { TodoContext } from "../../store/TodoContext";
 import styles from "./NewTodo.module.css";
 
 export const NewTodo: React.FC = () => {

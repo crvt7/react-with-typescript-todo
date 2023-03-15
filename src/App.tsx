@@ -1,6 +1,6 @@
-import TodoList from "./TodoList";
-import NewTodo from "./NewTodo";
-import TodoContextProvider from "./TodoContext";
+import TodoList from "./components/TodoList/TodoList";
+import NewTodo from "./components/NewTodo/NewTodo";
+import TodoContextProvider from "./store/TodoContext";
 
 const App = () => {
   return (
